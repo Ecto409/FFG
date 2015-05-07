@@ -2,10 +2,22 @@
     border-color:tranparent !important;
 }
 
+.wanted:hover{
+    color:white !important;
+}
+
+.wanted:after{
+    background-color:transparent !important;
+}
+
 .manavbar{
     background-color: transparent;
     border: none;
-    margin-bottom:0px;
+    margin-bottom:-50px;
+}
+
+.btn{
+    margin-right:5px !important;
 }
 
 .btn-info{
@@ -19,6 +31,19 @@
     border-color: white;
     border-radius: 3px;
 }
+
+.btn-info:after{
+    background:rgba(255,255,255, 0.3);
+    border-color: white;
+    border-radius: 3px;
+}
+
+.btn-info:focus{
+    background:rgba(255,255,255, 0.3);
+    border-color: white;
+    border-radius: 3px;
+}
+
 
 .btn-info a{
     font-weight:100;
@@ -78,7 +103,7 @@ h5,
 h6 {
     margin: 0 0 25px;
     font-family:"Roboto";
-    font-weight: normal;
+    font-weight: bolder;
 }
 
 
@@ -200,10 +225,9 @@ a:focus {
     width: 100%;
     height: 100%;
     padding: 50px 0;
-    margin-top:-50px;
     text-align: center;
     color: #fff;
-    background: url(../img/nike_bg3.jpg) no-repeat bottom center scroll;
+    background: url(../img/dollars-009.jpg) no-repeat bottom center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -230,7 +254,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 50px;
+        font-size: 80px;
     }
 
     .intro .intro-body .intro-text {
