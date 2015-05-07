@@ -9,11 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Fun facts</title>
+    <title>Like bra bra bra</title>
 
     <!-- CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 
 </head>
 
@@ -35,7 +38,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
           <form class="navbar-form navbar-right" role="search">
-            <button class="btn btn-info navbar-right"><a href="super.php">J'ai tout lu</a></button>        
+          	<button class="btn btn-info navbar-right"><a href="http://www.paroles-musique.com/traduction-Rihanna-Bitch_Better_Have_My_Money-lyrics,t173253">I no english</a></button>  
+            	<button class="btn btn-info navbar-right"><a href="http://genius.com/Rihanna-bitch-better-have-my-money-lyrics">Check ur facts</a></button>
           </form>
 
         </div><!-- /.navbar-collapse -->
@@ -49,14 +53,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading" id="message>Yo<br>
-                        
-
-<input class="btn btn-info" type="button" id="btnSearch" value="Search" onclick="GetValue();" />
-                        
-                        </h1>
-                        
-                        
+                    	<h1 class="brand-heading">Bitch better have my</h1>
+                        <h1 class="brand-heading" id="message">what?</h1><br>
+			<input class="btn btn-info wanted" type="button" id="btnSearch" value="Ain't it what you wanted?" onclick="GetValue();" style="font-weight: lighter; letter-spacing: 1px;"/>
                     </div>
                 </div>
             </div>
@@ -66,6 +65,15 @@
 
 
     <!-- jQuery and javascript -->
+    <script>
+    	function GetValue()
+{
+    var myarray= new Array('poney','journey','Britney','chimney','money','kidney','chutney','honey');
+    var random = myarray[Math.floor(Math.random() * myarray.length)];
+   document.getElementById("message").innerHTML=random;
+	
+}
+    </script>
     <script src="js/jquery.js"></script>
     <script src="js/jquery-1.11.0.min.js"></script>
 	<script src="js/lightbox.min.js"></script>
