@@ -28,7 +28,7 @@
 }
 
 .btn-info:hover{
-    background-color:ligthblue;
+    background-color: lightblue !important;
     border-color: lightblue;
     border-radius: 3px;
     color:white;
