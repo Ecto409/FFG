@@ -35,15 +35,17 @@
 }
 
 .btn-info:after{
-    background:rgba(255,255,255, 0.3);
-    border-color: white;
+    background-color: transparent;
+    border-color: lightblue;
     border-radius: 3px;
+    color:lightblue;
 }
 
 .btn-info:focus{
-    background:rgba(255,255,255, 0.3);
-    border-color: white;
+    background-color: transparent;
+    border-color: lightblue;
     border-radius: 3px;
+    color:lightblue;
 }
 
 
